@@ -1,0 +1,8 @@
+<Files registration.php>
+	Order Deny,Allow
+	Deny from all
+	Allow from 10.175.116.155
+</Files>
+
+RewriteEngine On
+RewriteRule ^$ /IOMS/login.php [L]

@@ -1,0 +1,139 @@
+body{
+			width: auto;
+			margin: 0;
+			font-family: "Segoe UI",Optima,Helvetica,Arial,sans-serif;
+			line-height: 25px;
+			padding: 0;
+			background-image: linear-gradient(#e6e6ff, #ffffff);
+			height: auto;
+
+		}
+		.search-box {
+			padding: 30px;
+			background-color:#e6e6ff;
+			height: auto;
+		}
+		.demoInputBox {    
+			padding: 10px;
+			border: 0;
+			border-radius: 4px;
+			margin: 0px 5px 15px;
+			width: 250px;
+		}
+		.btnSearch{    
+			padding: 10px;
+			background: #84D2A7;
+			border: 0;
+			border-radius: 4px;
+			margin: 0px 5px;
+			color: #FFF;
+			width: 150px;
+		}
+		#advance_search_link {
+			color: #001FFF;
+			cursor: pointer;
+		}
+		.result-description{
+			margin: 5px 0px 15px;
+		}
+		
+		/* duh */
+		 /* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+} 
+		
+		
+		.form-box {
+			padding: 30px;
+			margin-left: 15%;
+			height: 600px;
+		}
+		.form-label{
+			margin:2px;
+		}
+		.formsub{    
+			padding: 10px;
+			background: #84D2A7;
+			border: 0;
+			border-radius: 4px;
+			margin: 0px 5px;
+			color: #FFF;
+			width: 150px;
+		}
+		
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-left: 15%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
