@@ -22,3 +22,6 @@ FDS
 2. Attach the data with pdf file
 
 3. Classified data based on file index
+
+Username: pkg_admin
+Password: 123456
